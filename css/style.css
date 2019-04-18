@@ -1,0 +1,231 @@
+/*  font-family: 'Heebo', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Indie Flower', cursive;
+*/
+body{
+  background-color: #fcfefe;
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.1rem;
+  margin:0;
+  padding: 0;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+  margin:0;
+  font-family: 'Khand', sans-serif;
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #30e3ca, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #30e3ca, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #30e3ca, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #30e3ca, #f0f0f0);
+  position: relative;
+  z-index:1;
+  margin:4% 0;
+}
+
+.clear{
+  clear: both;
+}
+
+/* MAIN CONTAINER */
+.main-container{
+  margin:0;
+  padding: 0;
+}
+
+/* PERSONAL INFO */
+.personal-info{
+  width: 35%;
+  background-color: #11999e;
+  color:#fff;
+  float: left;
+  padding-bottom: 5%;
+}
+.personal-info section{
+  margin:0;
+  padding: 3% 7%;
+}
+
+.my-photo{
+  width: 100%;
+  height: 100%;
+  margin-bottom: -6px;
+}
+.photo-section{
+  background-color: #e4f9f5;
+  padding: 0 !important;
+}
+
+.heading-name{
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.heading-job{
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 0.5;
+}
+.intro{
+  margin:15% 0;
+  line-height: 2;
+  opacity: 0.8;
+}
+.info-table{
+  font-size:1rem;
+}
+
+.info-table tr td{
+  line-height: 3;
+
+}
+.opacity{
+  opacity: 0.7;
+
+}
+.info-table a{
+  color:#fff;
+  text-decoration: none;
+}
+.info-table a:hover{
+  color:#40514e;
+  text-decoration: none;
+}
+.fab{
+  margin-right:9px;
+}
+
+/* PROFESSIONAL INFO */
+
+.professional-info{
+  width:65%;
+  float: right;
+  color:#40514e;
+  padding: 0;
+}
+.professional-info section{
+  padding:3%;
+}
+
+
+
+.heading-education{
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 0.5;
+}
+.education-table{
+  margin-top:3%;
+  width: 80%;
+  position: relative;
+  z-index:1;
+}
+
+.flower-1{
+  position: absolute;
+  left:68%;
+  top:0;
+  z-index: 0;
+  width: 33%;
+  opacity: 0.2;
+}
+.education-years{
+  font-family: 'Khand', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.education-info{
+  font-size:0.8rem;
+  opacity: 0.7;
+}
+
+
+.skills-section{
+  position: relative;
+  z-index:1;
+  font-size: 0.9rem;
+}
+.skills-section table tr td{
+  padding:1%;
+}
+
+.flower-2{
+  top:60%;
+  position: absolute;
+  z-index:0;
+  opacity: 0.4;
+}
+.skills-table-left{
+  margin:3% 0;
+  width: 33%;
+  float: left;
+}
+.skills-table-right{
+  width: 33%;
+  float: right;
+  margin-top:3%;
+}
+.skills-table-mid{
+  width: 34%;
+  float: right;
+  margin-top:3%;
+}
+.fa-star{
+  color:#FFDD00;
+}
+
+/*  EXPERIENCE SECTION */
+.flower-3{
+  top:120%;
+  position: absolute;
+  z-index:0;
+  opacity: 0.4;
+  left:65%;
+}
+
+.job{
+  width:50%;
+  float: left;
+  margin-top:6.5%;
+}
+
+.h3-middle{
+  font-weight: 400;
+  line-height: 0.7;
+}
+.job-period{
+  font-size:0.8rem;
+  opacity: 0.7;
+  line-height: 0.3;
+}
+.job-desc{
+  width: 50%;
+  float: right;
+  margin-top:5%;
+
+}
+.job-desc-list{
+  list-style: none;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  padding: 0;
+  opacity: 0.7;
+}
+
+/* Languages section */
+.languages-table{
+  margin-top: 5%;
+  width: 50%;
+}
+
+/* MEDIA */
+@media(max-width:995px){
+  .personal-info{
+    width:100%;
+  }
+}
