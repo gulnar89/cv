@@ -121,7 +121,7 @@ hr{
 }
 .education-table{
   margin-top:3%;
-  width: 80%;
+  width: 100%;
   position: relative;
   z-index:1;
 }
@@ -224,20 +224,43 @@ hr{
 }
 
 /* MEDIA */
-@media(max-width:995px){
+
+
+@media screen and (max-width: 992px) {
   .personal-info{
     width:100%;
   }
   .professional-info{
-    width:100%;
+	  width:100%;
   }
+  .language-info{
+	  width:100%;
+  }
+  
 }
 
-@media(max-width:480px){
+@media screen and (max-width: 600px) {
   .job{
-    width:100%;
+	  width:100%;
+	  margin-top:6.5%;
   }
   .job-desc{
-    width:100%;
-  }
+	  width: 100%;
+	  margin-top:5%;
+}
+.languages-table{
+  margin-top: 5%;
+  width: 100%;
+}
+.skills-table-left{
+  margin:3% 0;
+  width: 100%;
+}
+.skills-table-right{
+  width: 100%;
+  margin-top:3%;
+}
+.skills-table-mid{
+  width: 100%;
+  margin-top:3%;
 }
