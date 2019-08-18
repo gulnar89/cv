@@ -239,7 +239,7 @@ hr{
   
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .job{
 	  width:100%;
 	  margin-top:6.5%;
@@ -256,11 +256,20 @@ hr{
   margin:3% 0;
   width: 100%;
 }
+.skills-table-left td{
+	width:50%;
+}
 .skills-table-right{
   width: 100%;
   margin-top:3%;
 }
+.skills-table-right td{
+	width:50%;
+}
 .skills-table-mid{
   width: 100%;
   margin-top:3%;
+}
+.skills-table-mid td{
+	width:50%;
 }
