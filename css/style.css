@@ -232,3 +232,18 @@ hr{
     width:100%;
   }
 }
+
+@media(max-width:300px){
+  .personal-info{
+    width:100%;
+  }
+  .professional-info{
+    width:100%;
+  }
+  .job{
+    width:100%;
+  }
+  .job-desc{
+    width:100%;
+  }
+}
