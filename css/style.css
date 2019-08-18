@@ -233,13 +233,7 @@ hr{
   }
 }
 
-@media(max-width:300px){
-  .personal-info{
-    width:100%;
-  }
-  .professional-info{
-    width:100%;
-  }
+@media(max-width:480px){
   .job{
     width:100%;
   }
