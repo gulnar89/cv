@@ -225,8 +225,7 @@ hr{
 
 /* MEDIA */
 
-
-@media screen and (max-width: 992px) {
+@media screen and (max-width:1053px){
   .personal-info{
     width:100%;
   }
@@ -236,10 +235,24 @@ hr{
   .language-info{
 	  width:100%;
   }
-  
+  .intro{
+  margin:5% 0;
+}
+.flower-3{
+  top:150%;
+  left:40%;
+  width:60%;
+}
+.flower-2{
+  top:500%;
+  left:30%;
+  width:60%;
+}
 }
 
+
 @media screen and (max-width: 700px) {
+
   .job{
 	  width:100%;
 	  margin-top:6.5%;
@@ -274,30 +287,42 @@ hr{
 	width:50%;
 }
 .flower-3{
-  left:0%;
+  left:20%;
   width:80%;
+  top:200%;
 }
-.info-table{
-  font-size:0.8rem;
-}
+
 .flower-1{
-  left:0%;
-  width: 20%;
+  left:30%;
+  width: 70%;
   opacity: 0.2;
+  top:80%;
 }
-.education-years{
+
+.flower-2{
+  width:70%;
+}
+.main-container{
+  width:100%;
+}
+
+}
+
+@media screen and (max-width:400px){
+	.info-table{
+  font-size:0.8rem;
+    }
+	.education-years{
   font-size: 0.8rem;
 }
 .education-info{
   font-size:0.7rem;
 }
-.flower-2{
-  width:50%;
-}
-.main-container{
-  width:100%;
-}
 .education-place{
 	font-size:0.8rem;
+}
+.heading-education{
+
+  line-height: 1;
 }
 }
