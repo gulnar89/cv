@@ -273,3 +273,31 @@ hr{
 .skills-table-mid td{
 	width:50%;
 }
+.flower-3{
+  left:0%;
+  width:80%;
+}
+.info-table{
+  font-size:0.8rem;
+}
+.flower-1{
+  left:0%;
+  width: 20%;
+  opacity: 0.2;
+}
+.education-years{
+  font-size: 0.8rem;
+}
+.education-info{
+  font-size:0.7rem;
+}
+.flower-2{
+  width:50%;
+}
+.main-container{
+  width:100%;
+}
+.education-place{
+	font-size:0.8rem;
+}
+}
